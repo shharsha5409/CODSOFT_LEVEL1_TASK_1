@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+body{
+   
+    background-color: rgb(164, 241, 236);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.main{
+    
+    width: 100vw;;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+   
+    height: 51vh;
+    width: 80vw;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.devpic img{
+    height: 50vh;
+}
+
+.hello{
+    font-size:65px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold ;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.moreabout{
+    font-size: 15px;
+}
+
+.skills{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.projects{
+    font-weight: bold;
+    font-size: 25px;
+}
+
